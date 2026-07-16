@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="background_color"
+        android:title="Background Color"
+        android:summary="Choose the background color/theme"
+        android:defaultValue="default"
+        android:entries="@array/color_options"
+        android:entryValues="@array/color_values" />
+
+    <ListPreference
+        android:key="data_display"
+        android:title="Data Display"
+        android:summary="Choose how much data to display"
+        android:defaultValue="top"
+        android:entries="@array/data_display_options"
+        android:entryValues="@array/data_display_values" />
+
+    <Preference
+        android:key="reset_app"
+        android:title="Reset App"
+        android:summary="Reset the app and delete all data" />
+</PreferenceScreen>

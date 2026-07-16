@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/run_nav"
+        android:icon="@drawable/baseline_directions_run_24"
+        android:title="Run" />
+    <item
+        android:id="@+id/local_runs"
+        android:icon="@drawable/baseline_directions_run_24"
+        android:title="Local Runs" />
+    <item
+        android:id="@+id/group_nav"
+        android:icon="@drawable/baseline_groups_24"
+        android:title="Group" />
+</menu>

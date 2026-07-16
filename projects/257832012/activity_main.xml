@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="180dp"
+        android:background="#FF0000"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonRed"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:background="#00FF00"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/buttonYellow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:layout_toEndOf="@id/buttonRed"
+        android:background="#FFFF00"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonYellow"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@id/buttonGreen"
+        android:background="#0000FF"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBlue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="RESET" />
+
+</RelativeLayout>
