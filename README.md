@@ -93,3 +93,41 @@ Before publishing changes or creating releases:
 3. Run the Gradle project’s build and tests in a supported Android SDK environment.
 4. Review location permissions, service configuration, and data handling before enabling run tracking or leaderboard features.
 5. Compare the two recovered Gradle-project copies before deleting either copy.
+
+<!-- portfolio-public-release-license:start -->
+
+## License and public-release status
+
+This repository is published under an all-rights-reserved
+portfolio license. Viewing the repository does not grant permission to reuse its code,
+documentation, datasets, or assets. Third-party and collaborator materials retain
+their original rights.
+
+Before changing visibility from private to public, the owner must complete the
+ownership checklist in `LICENSE_REVIEW.md`.
+
+<!-- portfolio-public-release-license:end -->
+
+<!-- android-running-tracker-canonical-link:start -->
+
+## Android running-tracker project
+
+The running-tracker implementation has been moved to the `android-running-tracker-rebuild` repository. Duplicate source trees were removed from this repository after unique files were preserved.
+
+<!-- android-running-tracker-canonical-link:end -->
+
+<!-- release-license:start -->
+
+## License and public-release status
+
+This repository uses an all-rights-reserved portfolio license. Review `LICENSE_REVIEW.md` and `THIRD_PARTY_NOTICES.md` before changing visibility to public.
+
+<!-- release-license:end -->
+
+<!-- android-canonical:start -->
+
+## Android running-tracker project
+
+The canonical running-tracker implementation is maintained in `android-running-tracker-rebuild`. Exact duplicate files were removed here.
+
+<!-- android-canonical:end -->

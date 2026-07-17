@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  Android data extraction rules.
-  See https://developer.android.com/about/versions/12/backup-restore#xml-changes
-  for supported include and exclude rules.
--->
-<data-extraction-rules>
-    <cloud-backup />
-</data-extraction-rules>

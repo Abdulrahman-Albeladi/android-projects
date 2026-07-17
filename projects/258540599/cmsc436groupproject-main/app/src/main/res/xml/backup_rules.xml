@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  Auto Backup rules for Android 12 (API 31) and later.
-  https://developer.android.com/guide/topics/data/autobackup
--->
-<full-backup-content />
