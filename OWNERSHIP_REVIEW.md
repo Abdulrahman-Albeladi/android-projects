@@ -1,6 +1,6 @@
 # Ownership and publication attestation
 
-The repository owner supplied the following publication confirmations. These are human attestations and were not inferred by automation.
+The repository owner supplied these human confirmations. Automation did not infer them.
 
 ```yaml
 attested_by: Abdulrahman Albeladi

@@ -10,18 +10,18 @@ permissions:
 jobs:
   validation:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
-      - name: Install validator
+      - name: Install portable validator
         run: python -m pip install --upgrade nbformat PyYAML
 
-      - name: Portfolio structural validation
+      - name: Structural and security validation
         run: python tools/portfolio_validate.py
