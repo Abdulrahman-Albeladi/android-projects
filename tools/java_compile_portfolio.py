@@ -12,6 +12,7 @@ failures = []
 compiled = 0
 
 for project in projects:
+    project = project.resolve()
     sources = [
         path for path in project.rglob("*.java")
         if "tests" not in {part.lower() for part in path.parts}
@@ -21,7 +22,13 @@ for project in projects:
         continue
 
     out = Path(tempfile.mkdtemp(prefix=f"javac-{project.name}-"))
-    command = ["javac", "-encoding", "UTF-8", "-d", str(out)]
+    command = [
+        "javac",
+        "-encoding",
+        "UTF-8",
+        "-d",
+        str(out.resolve()),
+    ]
 
     uses_javafx = any(
         "javafx." in path.read_text(encoding="utf-8", errors="ignore")
@@ -42,7 +49,7 @@ for project in projects:
                 "--add-modules", "javafx.controls,javafx.fxml",
             ]
 
-    command += [str(path) for path in sources]
+    command += [str(path.resolve()) for path in sources]
     result = subprocess.run(
         command, cwd=project, capture_output=True, text=True
     )
