@@ -1,21 +1,15 @@
-# Ownership and public-release review
+# Ownership and publication attestation
 
-**Current status: MANUAL OWNERSHIP REVIEW REQUIRED**
+The repository owner supplied the following publication confirmations. These are human attestations and were not inferred by automation.
 
-Partial course-source recoveries require course-material and authorship review.
-
-## General checks
-
-- [ ] I own the retained work or have permission to publish it.
-- [ ] Course starter code and instructor material are removed or redistributable.
-- [ ] Collaborator contributions are attributed and approved.
-- [ ] Datasets, images, PDFs, and other assets may be redistributed.
-- [ ] README claims match actual build and test evidence.
-- [ ] I inspected the complete Git history, not only the working tree.
-
-## Repository-specific checks
-
-- [ ] Confirm authorship and redistribution rights for course-derived files.
-- [ ] Present partial source recoveries as examples rather than complete apps.
-
-This checklist requires a human decision. Automation cannot establish ownership.
+```yaml
+attested_by: Abdulrahman Albeladi
+attestation_date_utc: 2026-07-17
+repository: android-mobile-projects
+confirmations:
+  i_own_or_have_permission_for_every_published_file: true
+  course_or_institution_rules_allow_publication: true
+  starter_code_and_third_party_material_is_allowed_or_removed: true
+  repository_description_is_truthful_about_partial_build_status: true
+  i_understand_public_visibility_is_irreversible_by_others_forking: true
+```
