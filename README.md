@@ -1,5 +1,12 @@
 # Android Projects
 
+<!-- employer-visual:start -->
+<p align="center">
+  <img src="docs/portfolio-overview.png" alt="Android Projects project overview" width="100%">
+</p>
+<!-- employer-visual:end -->
+
+
 A collection of small Android coursework projects demonstrating mobile UI, local storage, input handling, and game logic.
 
 **Technologies:** Kotlin · Android
