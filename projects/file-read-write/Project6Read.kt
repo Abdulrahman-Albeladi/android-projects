@@ -9,16 +9,22 @@ import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
 /**
- * Retrieves a saved record for an email address and delivers the parsed response.
+ * Reads a saved record for an email address from a remote endpoint and delivers the parsed response.
+ *
+ * Endpoint configuration:
+ * - The endpoint is provided via constructor and defaults to a non-operational placeholder
+ *   (https://example.com/read). This avoids relying on any third-party or course-hosted servers.
+ * - Pass a different base URL to the constructor to point at your own backend.
  */
 class Project6Read(
-    private val callback: (String, List<Any>?, Int?) -> Unit
+    private val callback: (String, List<Any>?, Int?) -> Unit,
+    private val endpoint: String = DEFAULT_ENDPOINT
 ) : AsyncTask<String, Void, Triple<String, List<Any>?, Int?>>() {
 
     override fun doInBackground(vararg params: String): Triple<String, List<Any>?, Int?> {
         val email = params.firstOrNull() ?: return NOT_FOUND
         val encodedEmail = URLEncoder.encode(email, StandardCharsets.UTF_8.name())
-        val url = URL("$ENDPOINT?email=$encodedEmail")
+        val url = URL("$endpoint?email=$encodedEmail")
 
         return try {
             (url.openConnection() as HttpURLConnection).run {
@@ -70,7 +76,7 @@ class Project6Read(
     }
 
     private companion object {
-        const val ENDPOINT = "https://cmsc436-2301.cs.umd.edu/project6Read.php"
+        const val DEFAULT_ENDPOINT = "https://example.com/read"
         const val CONNECT_TIMEOUT_MS = 10_000
         const val READ_TIMEOUT_MS = 10_000
 

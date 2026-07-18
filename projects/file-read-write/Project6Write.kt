@@ -6,6 +6,15 @@ import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
 
+/**
+ * Performs a simple network "write" by sending a JSON payload as a query parameter to a
+ * configurable endpoint. This mirrors the original exercise behavior and intentionally uses
+ * AsyncTask for simplicity.
+ *
+ * - The endpoint can be provided via the constructor.
+ * - The default endpoint is a non-operational placeholder (https://example.com/write).
+ *   Replace it with your own service if you want to run this end-to-end.
+ */
 class Project6Write(
     private val callback: (String) -> Unit,
     private val endpoint: String = DEFAULT_ENDPOINT
@@ -52,7 +61,6 @@ class Project6Write(
     private fun failureResponse(): String = "{\"result\":\"bad\"}"
 
     private companion object {
-        const val DEFAULT_ENDPOINT =
-            "https://cmsc436-2301.cs.umd.edu/project6Write.php"
+        const val DEFAULT_ENDPOINT = "https://example.com/write"
     }
 }
