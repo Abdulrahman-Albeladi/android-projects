@@ -1,12 +1,4 @@
-# Android Mobile Projects
-
-<!-- coursework-portfolio-notice:start -->
-> [!NOTE]
-> **Archived college-work portfolio snapshot.** This repository documents coursework, reconstructed assignments, experiments, and skills developed during university. It is provided for portfolio and educational reference, not as maintained production software. Some projects may require historical dependencies, datasets, SDKs, or manual setup and may not build unchanged on current toolchains.
->
-> **Known limitation:** Some reconstructed Android coursework may require older Android tooling, dependencies, or manual project setup.
-<!-- coursework-portfolio-notice:end -->
-
+# Android Projects
 Recovered Android coursework source examples.
 
 The running-tracker group application is maintained separately in
