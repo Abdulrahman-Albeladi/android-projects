@@ -8,12 +8,12 @@ The running-tracker group application is maintained separately in
 
 | Location | Main file types | Status |
 |---|---|---|
-| `projects/257463730` | 5 XML, 3 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/257832012` | 2 Kotlin, 1 XML | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/257922665` | 2 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/257972301` | 4 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/258157347` | 3 Kotlin, 1 XML | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/258513440` | 5 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
+| `projects/encryption-tool` | 5 XML, 3 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
+| `projects/color-sequence-game` | 2 Kotlin, 1 XML | Partial Android source recovery; no complete Gradle build is claimed. |
+| `projects/mortgage-calculator` | 2 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
+| `projects/pong-game` | 4 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
+| `projects/file-read-write` | 3 Kotlin, 1 XML | Partial Android source recovery; no complete Gradle build is claimed. |
+| `projects/balloon-game` | 5 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
 
 ## Running the projects
 
@@ -21,19 +21,15 @@ These folders may omit manifests, Gradle wrappers, dependency declarations, or o
 Android project infrastructure. Treat them as source examples unless a complete build
 is independently verified.
 
-## Validation
+<!-- internal-projects:start -->
+## Projects
 
-No Android build, emulator test, instrumentation test, or device test is claimed for
-these partial recoveries.
-
-## Current repository layout
-
-- `projects/` — 26 files
-
-## Public-release status
-
-**MANUAL OWNERSHIP REVIEW REQUIRED**
-
-Partial course-source recoveries require course-material and authorship review.
-
-Review `PROJECT_INDEX.md` and `OWNERSHIP_REVIEW.md` before changing visibility.
+| Project | Location |
+|---|---|
+| Encryption Tool | `projects/encryption-tool` |
+| Color Sequence Game | `projects/color-sequence-game` |
+| Mortgage Calculator | `projects/mortgage-calculator` |
+| Pong Game | `projects/pong-game` |
+| File Read and Write | `projects/file-read-write` |
+| Balloon Game | `projects/balloon-game` |
+<!-- internal-projects:end -->
