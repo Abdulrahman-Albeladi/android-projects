@@ -1,35 +1,38 @@
 # Android Projects
-Recovered Android coursework source examples.
 
-The running-tracker group application is maintained separately in
-`android-running-tracker-rebuild` and is not duplicated here.
+A collection of small Android coursework projects demonstrating mobile UI, local storage, input handling, and game logic.
 
-## Projects
+**Technologies:** Kotlin · Android
 
-| Location | Main file types | Status |
-|---|---|---|
-| `projects/encryption-tool` | 5 XML, 3 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/color-sequence-game` | 2 Kotlin, 1 XML | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/mortgage-calculator` | 2 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/pong-game` | 4 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/file-read-write` | 3 Kotlin, 1 XML | Partial Android source recovery; no complete Gradle build is claimed. |
-| `projects/balloon-game` | 5 Kotlin | Partial Android source recovery; no complete Gradle build is claimed. |
+## Highlights
 
-## Running the projects
+- Multiple focused applications rather than one monolithic codebase.
+- Examples involving input validation, persistence, UI state, and game mechanics.
+- Title-based project folders for quick employer review.
 
-These folders may omit manifests, Gradle wrappers, dependency declarations, or other
-Android project infrastructure. Treat them as source examples unless a complete build
-is independently verified.
-
-<!-- internal-projects:start -->
 ## Projects
 
 | Project | Location |
 |---|---|
-| Encryption Tool | `projects/encryption-tool` |
-| Color Sequence Game | `projects/color-sequence-game` |
-| Mortgage Calculator | `projects/mortgage-calculator` |
-| Pong Game | `projects/pong-game` |
-| File Read and Write | `projects/file-read-write` |
-| Balloon Game | `projects/balloon-game` |
-<!-- internal-projects:end -->
+| Encryption Tool | [`projects/encryption-tool`](projects/encryption-tool) |
+| Color Sequence Game | [`projects/color-sequence-game`](projects/color-sequence-game) |
+| Mortgage Calculator | [`projects/mortgage-calculator`](projects/mortgage-calculator) |
+| Pong Game | [`projects/pong-game`](projects/pong-game) |
+| File Read and Write | [`projects/file-read-write`](projects/file-read-write) |
+| Balloon Game | [`projects/balloon-game`](projects/balloon-game) |
+
+## Getting started
+
+1. Open the selected project in Android Studio.
+2. Review its source layout and Android SDK assumptions.
+3. Some source-only exercises may require creating a small wrapper project to run.
+
+## Portfolio note
+
+These are coursework snapshots with different levels of completeness and toolchain requirements.
+
+## License and attribution
+
+Third-party and collaborator attribution is documented in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+
+Use and redistribution are governed by the repository's [`LICENSE`](LICENSE).
