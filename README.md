@@ -1,10 +1,5 @@
 # Android Projects
 
-<!-- employer-visual:start -->
-<p align="center">
-  <img src="docs/portfolio-overview.png" alt="Android Projects project overview" width="100%">
-</p>
-<!-- employer-visual:end -->
 
 Small Android coursework exercises showcasing Kotlin, UI state, basic persistence, and simple game logic.
 
